@@ -1,0 +1,5 @@
+requests>=2.31.0
+python-dotenv>=1.0.0
+# Optional: install airflow locally only if you want full local runtime (heavy)
+apache-airflow==3.2.2
+# pendulum is installed by apache-airflow and does not need a separate pin here.
