@@ -2,4 +2,7 @@ requests>=2.31.0
 python-dotenv>=1.0.0
 # Optional: install airflow locally only if you want full local runtime (heavy)
 apache-airflow==3.2.2
+apache-airflow-providers-postgres>=5.13.1
+apache-airflow-providers-standard>=3.0.0
+psycopg2-binary>=2.9.7
 # pendulum is installed by apache-airflow and does not need a separate pin here.
